@@ -1,0 +1,11 @@
+#node Modules
+node_modules/
+
+#environment variables
+.env 
+
+.DS_Store
+
+# Configuration files
+db.js
+
