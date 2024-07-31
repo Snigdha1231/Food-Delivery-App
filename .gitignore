@@ -1,7 +1,8 @@
 #node Modules
 node_modules/
 
-#environment variables
-.env 
 
 .DS_Store
+
+#environment variables
+.env 
