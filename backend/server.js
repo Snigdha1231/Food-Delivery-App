@@ -10,7 +10,7 @@ import orderRouter from "./routes/orderRoute.js"
 
 //app config
 const app= express()
-const port = 4000
+const port = process.env.PORT || 4000
 
 //middleware
 app.use(express.json())
@@ -33,6 +33,3 @@ app.get("/",(req,res)=>{
 app.listen(port,()=>{
     console.log(`Server Started on http://localhost:${port}`)
 })
-
-
-//mongodb+srv://snigdha:Jobs_123@cluster0.nauielt.mongodb.net/?
